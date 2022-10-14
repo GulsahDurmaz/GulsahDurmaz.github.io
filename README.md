@@ -9,4 +9,4 @@ I **love** learning about creative coding, so don't hesitate to say hi!
 
 - [Linkedin](https://www.linkedin.com/in/zahide-gulsah-durmaz/)
 
-![me](me.gif)
+<img src="me.gif" alt="me" />
