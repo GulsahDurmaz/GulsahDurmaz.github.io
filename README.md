@@ -8,3 +8,5 @@ My name is Gülsah, I'm currently working on:
 I **love** learning about creative coding, so don't hesitate to say hi!
 
 - [Linkedin](https://www.linkedin.com/in/zahide-gulsah-durmaz/)
+
+![me](me.gif)
