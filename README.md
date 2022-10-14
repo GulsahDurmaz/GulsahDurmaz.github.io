@@ -7,4 +7,4 @@ My name is Gülsah, I'm currently working on:
 
 I **love** learning about creative coding, so don't hesitate to say hi!
 
-[linkedin] (https://www.linkedin.com/in/zahide-gulsah-durmaz/)
+- [Linkedin](https://www.linkedin.com/in/zahide-gulsah-durmaz/)
