@@ -5,20 +5,20 @@
 }
 
 h1 {
-  color: #426696;
+  color: #E26868;
   font-weight: 600;
   font-size: 3rem;
   opacity: 0.8;
 }
 h2,
 p {
-  color: #658ec6;
+  color: #FF8787;
   font-weight: 500;
   opacity: 0.8;
 }
 
 h3 {
-  color: #426696;
+  color: #E26868;
   font-weight: 600;
   opacity: 0.8;
 }
@@ -26,7 +26,8 @@ h3 {
 main {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background: linear-gradient(to right top, #E26868, #EDEDED
+);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -180,4 +181,8 @@ main {
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+img {
+  border-radius: 50%;
 }
