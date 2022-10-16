@@ -24,7 +24,7 @@ h3 {
 }
 
 main {
-  font-family: "Lora", sans-serif;
+  font-family: "Helvetica", sans-serif;
   min-height: 100vh;
   background: linear-gradient(to right top, #E26868, #EDEDED
 );
@@ -116,7 +116,7 @@ main {
   font-weight: 600;
 }
 
-/* GAMES */
+/* My Works */
 .status {
   margin-bottom: 3rem;
 }
