@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Musical Advent Calendar</title>
+    <style>
+      body {
+        background: linear-gradient(94.3deg, rgba(104, 213, 253, 0.63) 0.7%, rgba(169, 236, 91, 0.79) 18.6%, rgba(253, 246, 116, 0.98) 39.1%, rgba(255, 164, 120, 0.92) 63%, rgba(250, 115, 188, 0.89) 85.3%, rgb(97, 176, 242) 108.2%);
+      } 
+      .container {
+        background: linear-gradient(113.5deg, rgb(234, 234, 234) 22.3%, rgb(201, 234, 211) 56.6%, rgb(255, 180, 189) 90.9%);
+        display: block;
+        margin: auto;
+        padding: 10px 20px 10px 20px;
+        border: 1px solid #ffffff;
+        border-radius: 3px 3px 3px 3px;
+        max-width: 500px;
+        box-shadow: 1px 1px 10px #8d8c92;
+      }
+
+      h1 {
+        color: #0000003e;
+        font-size: 32px;
+        text-align: center;
+        font-family: 'Rubik 80s Fade';
+      }
+      h2 {
+        color: #0000003e;
+        font-size: 20px;
+        text-align: center;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      button {
+        display: block;
+        font-size: 15px;
+        margin: 0 auto 30px auto;
+        color: #d55858b8;
+        background-color: transparent;
+        padding: 10px 20px 10px 20px;
+        border: 1px solid #d55858b8;
+        border-radius: 3px 3px 3px 3px;
+        box-shadow: 1px 1px 10px #8d8c92;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background: #d55858;
+        color: #f5f0fe;
+        cursor: pointer;
+      }
+      a {
+        display: inline;
+        text-decoration: none;
+        color: #d55858b8;
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      p {
+        font-weight: thin;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 25px;
+        font-size: 13px;
+        width: 480px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        color: #0000003e;
+      }
+      img {
+        display: inline;
+        margin: auto;
+        border-radius: 50%;
+        padding: 3px;
+        width: 70px;
+        transform-style: preserve-3d;
+        transition: all 300ms;
+        border: 2px dashed transparent;
+      }
+       img:hover {
+       border-color: #ffffff;
+      }
+      .developerName {
+        text-align: center;
+        font-size: 10px;
+        opacity: 0.7;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="container">
+      <h1><em>Musical</em> Advent Calendar 🎶 <br />
+      2022</h1>
+      <hr />
+      <h2>Start your music journey!</h2>
+      <div class = "adventCalendar">
+        <span class="day12">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/632/original/Day_12.png?1670760123"
+            alt="Day 12"
+          />
+        </span>
+        <span class="day2">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/622/original/Day_2.png?1670760024"
+              alt="Day 2"
+            />
+        </span>
+        <span class="day24">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/644/original/Day_24.png?1670760209"
+              alt="Day 24"
+            />
+        </span>
+        <span class="day4">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/624/original/Day_4.png?1670760045"
+              alt="Day 4"
+            />
+        </span>
+        <span class="day7">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/627/original/Day_7.png?1670760084"
+              alt="Day 7"
+            />
+        </span>
+        <span class="day8">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/628/original/Day_8.png?1670760090"
+              alt="Day 8"
+            />
+        </span>
+        <span class="day10">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/653/original/Day_10.png?1670762331"
+              alt="Day 10"
+            />
+        </span>
+        <span class="day13">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/633/original/Day_13.png?1670760131"
+              alt="Day 13"
+            />
+        </span>
+        <span class="day14">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/634/original/Day_14.png?1670760138"
+              alt="Day 14"
+            />
+        </span>
+        <span class="day22">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/642/original/Day_22.png?1670760196"
+              alt="Day 22"
+            />
+        </span>
+        <span class="day15">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/651/original/Day_15.png?1670762319"
+              alt="Day 15"
+            />
+        </span>
+        <span class="day6">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/626/original/Day_6.png?1670760078"
+              alt="Day 6"
+            />
+        </span>
+        <span class="day18">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/638/original/Day_18.png?1670760168"
+              alt="Day 18"
+            />
+        </span>
+        <span class="day9">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/629/original/Day_9.png?1670760096"
+              alt="Day 9"
+            />
+        </span>
+        <span class="day16">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/650/original/Day_16.png?1670762311"
+              alt="Day 16"
+            />
+        </span>
+        <span class="day3">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/623/original/Day_3.png?1670760032"
+              alt="Day 3"
+            />
+        </span>
+        <span class="day19">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/639/original/Day_19.png?1670760175"
+              alt="Day 19"
+            />
+        </span>
+        <span class="day23">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/643/original/Day_23.png?1670760202"
+              alt="Day 23"
+            />
+        </span>
+        <span class="day11">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/652/original/Day_11.png?1670762325"
+              alt="Day 11"
+            />
+        </span>
+        <span class="day20">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/640/original/Day_20.png?1670760184"
+              alt="Day 20"
+            />
+        </span>
+        <span class="day1">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/621/original/Day_1.png?1670760013"
+              alt="Day 1"
+            />
+        </span>
+        <span class="day21">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/641/original/Day_21.png?1670760190"
+              alt="Day 21"
+            />
+        </span>
+        <span class="day17">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/637/original/Day_17.png?1670760161"
+              alt="Day 17"
+            />
+        </span>
+        <span class="day5">
+          <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/625/original/Day_5.png?1670760055"
+              alt="Day 5"
+            />
+        </span>
+        
+     
+    
+      <p>
+        An Advent calendar with the nativity scene behind the 24th door and the
+        adoration of the shepherds behind the 25th. Each of the four Sundays in
+        Advent has an additional door. An Advent calendar is used to count the
+        days of Advent in anticipation of Christmas.
+        <a
+          href="https://en.wikipedia.org/wiki/Advent_calendar"
+          target="_blank"
+          class="learn-more"
+        >
+          (Learn more on Wikipedia)
+        </a>
+        <p>
+          You can have your own customised Musical Advent Calendar!
+        </p>
+      <button class="buyButton">👉 Order Now</em></button>
+      <div class="developerName">This page was built by <strong> Gülsah Durmaz </strong></div>
+       <script>
+       function takeInfo() {
+        let firstName = prompt("What is your first name?");
+        let age = prompt("How old are you?");
+        if (age >= 18) {
+         alert (
+          "Hi " + firstName + "! We are gonna contact you soon! 😇");
+        } else {
+        alert (
+         "Sorry " + firstName + ", you can't order 😔.");
+        }
+      }      
+     let buyButton = document.querySelector("button");
+     buyButton.addEventListener("click", takeInfo);
+
+     function d1Surprise() {
+      window.open(
+        "https://youtu.be/H5v3kku4y6Q", '_blank');
+     }
+     
+    
+     let day1 = document.querySelector(".day1");
+     day1.addEventListener("click", d1Surprise);
+
+     function d2Surprise() {
+      window.open(
+        "https://youtu.be/YScncKo0yRY", '_blank');
+     }
+     let day2 = document.querySelector(".day2");
+     day2.addEventListener("click", d2Surprise);
+
+     function d3Surprise() {
+      window.open(
+        "https://youtu.be/WcIcVapfqXw", '_blank');
+     }
+     let day3 = document.querySelector(".day3");
+     day3.addEventListener("click", d3Surprise);
+
+     function d4Surprise() {
+      window.open(
+        "https://youtu.be/ewOPQZZn4SY", '_blank');
+     }
+     let day4 = document.querySelector(".day4");
+     day4.addEventListener("click", d4Surprise);
+
+     function d5Surprise() {
+      window.open(
+        "https://youtu.be/n95eekfFZZg", '_blank');
+     }
+     let day5 = document.querySelector(".day5");
+     day5.addEventListener("click", d5Surprise);
+
+     function d6Surprise() {
+      window.open(
+        "https://youtu.be/Xg72z08aTXY", '_blank');
+     }
+     let day6 = document.querySelector(".day6");
+     day6.addEventListener("click", d6Surprise);
+
+     function d7Surprise() {
+      window.open(
+        "https://youtu.be/WaeKl5oyoW4", '_blank');
+     }
+     let day7 = document.querySelector(".day7");
+     day7.addEventListener("click", d7Surprise);
+
+     function d8Surprise() {
+      window.open(
+        "https://youtu.be/6swmTBVI83k", '_blank');
+     }
+     let day8 = document.querySelector(".day8");
+     day8.addEventListener("click", d8Surprise);
+
+     function d9Surprise() {
+      window.open(
+        "https://youtu.be/iX-QaNzd-0Y", '_blank');
+     }
+     let day9 = document.querySelector(".day9");
+     day9.addEventListener("click", d9Surprise);
+
+     function d10Surprise() {
+      window.open(
+        "https://youtu.be/iB7E1D_3Na4", '_blank');
+     }
+     let day10 = document.querySelector(".day10");
+     day10.addEventListener("click", d10Surprise);
+
+     function d11Surprise() {
+      window.open(
+        "https://youtu.be/W4UwfJ6AGPE", '_blank');
+     }
+     let day11 = document.querySelector(".day11");
+     day11.addEventListener("click", d11Surprise);
+
+     function d12Surprise() {
+      window.open(
+        "https://youtu.be/llIo5Mvubwc?list=RDllIo5Mvubwc", '_blank');
+     }
+     let day12 = document.querySelector(".day12");
+     day12.addEventListener("click", d12Surprise);
+
+     function d13Surprise() {
+      window.open(
+        "https://youtu.be/sElE_BfQ67s", '_blank');
+     }
+     let day13 = document.querySelector(".day13");
+     day13.addEventListener("click", d13Surprise);
+
+     function d14Surprise() {
+      window.open(
+        "https://youtu.be/5Z0EWqe6cLM", '_blank');
+     }
+     let day14 = document.querySelector(".day14");
+     day14.addEventListener("click", d14Surprise);
+
+     function d15Surprise() {
+      window.open(
+        "https://youtu.be/IJilkMPqvs0", '_blank');
+     }
+     let day15 = document.querySelector(".day15");
+     day15.addEventListener("click", d15Surprise);
+     
+     function d16Surprise() {
+      window.open(
+        "https://youtu.be/NrgcRvBJYBE", '_blank');
+     }
+     let day16 = document.querySelector(".day16");
+     day16.addEventListener("click", d16Surprise);
+
+     function d17Surprise() {
+      window.open(
+        "https://youtu.be/PUdyuKaGQd4", '_blank');
+     }
+     let day17 = document.querySelector(".day17");
+     day17.addEventListener("click", d17Surprise);
+
+     function d18Surprise() {
+      window.open(
+        "https://youtu.be/X4Q7d0CtYyk", '_blank');
+     }
+     let day18 = document.querySelector(".day18");
+     day18.addEventListener("click", d18Surprise);
+
+     function d19Surprise() {
+      window.open(
+        "https://youtu.be/rTVjnBo96Ug", '_blank');
+     }
+     let day19 = document.querySelector(".day19");
+     day19.addEventListener("click", d19Surprise);
+
+     function d20Surprise() {
+      window.open(
+        "https://youtu.be/9RFAvClLJOU", '_blank');
+     }
+     let day20 = document.querySelector(".day20");
+     day20.addEventListener("click", d20Surprise);
+
+     function d21Surprise() {
+      window.open(
+        "https://youtu.be/cmimLCOL5Y0", '_blank');
+     }
+     let day21 = document.querySelector(".day21");
+     day21.addEventListener("click", d21Surprise);
+
+     function d22Surprise() {
+      window.open(
+        "https://youtu.be/nkUOACGtGfA", '_blank');
+     }
+     let day22 = document.querySelector(".day22");
+     day22.addEventListener("click", d22Surprise);
+
+     function d23Surprise() {
+      window.open(
+        "https://youtu.be/sezc05A4s2g", '_blank');
+     }
+     let day23 = document.querySelector(".day23");
+     day23.addEventListener("click", d23Surprise);
+
+     function d24Surprise() {
+      window.open(
+        "https://youtu.be/yXQViqx6GMY", '_blank');
+     }
+     let day24 = document.querySelector(".day24");
+     day24.addEventListener("click", d24Surprise);
+
+     
+    </script>
+  </body>
+</html>
